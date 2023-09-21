@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body {
+    margin: auto;
+    background: white;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+nav {
+    width: auto;
+    height: 50px;
+    display: flex;
+    background-color: #03045e;
+    padding: 20px 20px 20px 190px;
+    border-bottom: solid 2px black;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #caf0f8;
+    padding: 10px 20px 0px 20px;
+}
+
+nav button {
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: #023e8a;
+    border: solid white 1px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+nav button:hover {
+    background-color: #00b4d8;
+    color: white;
+}
+
+main {
+    margin: auto;
+}
+
+section {
+    padding: 0px 100px 50px 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid black 1px;
+}
+
+.card1 {
+    flex-direction: column;
+    width: 50%;
+}
+
+.prijs {
+    flex-direction: column;
+    align-self: center;
+}
+
+.prijs button {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #023e8a;
+    border: solid white 1px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.prijs button:hover {
+    background-color: #00b4d8;
+    color: white;
+}
+
+.prijs2 {
+    font-size: 36px;
+}
+
+.titel {
+    font-size: 42px;
+    padding: 50px 100px 0px 0px;
+}
+
+.placeholder {
+    background-color: #EDF0F7;
+    width: 750px;
+    height: 500px;
+    border: solid 2px black;
+}
+
+.placeholder img {
+    width: auto;
+    height: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.voordeelnadeel {
+    width: 400px;
+    height: 150px;
+    background-color: #caf0f8;
+    margin-top: 100px;
+}
+
+.voordeelnadeel h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0px 0px 50px;
+}
+
+.voordeelnadeel p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+}
+
+.omschrijving {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.omschrijving h1 {
+    font-size: 50px;
+}
+
+.container3 {
+    background-color: #caf0f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+
+.container3 h1 {
+    font-size: 50px;
+}
+
+.gerelateerd {
+    margin-top: 50px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.cards img {
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    background-color: #EDF0F7;
+}
+
+.cards div {
+    padding: 0px 30px 0px 30px;
+}
+
+footer {
+    background-color: #03045e;
+    width: auto;
+    height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 75px 20px 0px 20px;
+}
